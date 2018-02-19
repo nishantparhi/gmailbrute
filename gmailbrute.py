@@ -1,4 +1,6 @@
 #!/usr/bin/python2.7
+#Author: Nishant Parhi
+#Founder of xploitit
 
 import smtplib
 import sys
